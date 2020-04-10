@@ -43,10 +43,10 @@ More, you can verify that "SRVROOT" is set up on the right path "Define SRVROOT 
 
 ## Some useful commands
 
-Stop Apache	    			httpd -k stop
-Start Apache				httpd –k start
-Restart Apache				httpd -k restart
-Uninstall Apache Service	httpd -k uninstall
-Test Config Syntax			httpd -t
-Version Details				httpd -V
-Command Line Options List	httpd -h
+- Stop Apache	    			httpd -k stop
+- Start Apache					httpd –k start
+- Restart Apache				httpd -k restart
+- Uninstall Apache Service		httpd -k uninstall
+- Test Config Syntax			httpd -t
+- Version Details				httpd -V
+- Command Line Options List		httpd -h
