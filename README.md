@@ -10,7 +10,7 @@ The binary files are from the Apache Haus community.
 
 ## Chocolatey Packet Manager
 
-First, you have to open a PowerShell as an Administrator. Then, you have to execute the script "chocolatey_install.ps1". It will allow us to use the command "choco" through the chocolatey packet manager and easily install Apache.
+First, you have to open a PowerShell as an Administrator. Then, you have to execute the script "chocolatey_install.ps1". It will allow us to use (on Windows) the command "choco" (and other commands) from the chocolatey packet manager and easily install Apache.
 
 Once the installation done, close the PowerShell.
 
@@ -26,6 +26,8 @@ You can customize this script by modifying the parameters
 - /port - The port Apache will listen to. Default: 80:
 
 Depending on which module you need to activate, you have to open the httpd.conf file (located in /conf folder) and enable or disable the module you need (by removing or adding "#" from line 74 to line 180).
+
+Note that the script enable Apache as a service and activate it automatically.
 
 # For further development
 
